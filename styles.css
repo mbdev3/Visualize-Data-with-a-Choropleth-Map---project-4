@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  overflow: auto;
+  font-family: 'Poppins', sans-serif;
+  margin: 2rem 0;
+}
+pre {
+  font-size: 7em;
+}
+.marks {
+}
+.marks path {
+}
+.marks .land {
+  fill: #ececec;
+}
+.marks .sphere {
+  fill: #fbfbfb;
+}
+.marks .interiors {
+  fill: none;
+  stroke: #d9dfe0;
+}
+.marks .graticules {
+  fill: none;
+  stroke: #ececec;
+}
+circle {
+  fill: #dd7437;
+  opacity: 0.2;
+}
+
+line {
+  stroke: #635f5d;
+  stroke-width: 1;
+}
+#title h1 {
+  font-size: 1.75em;
+  text-align: center;
+  color: 635f5d;
+  margin: 0;
+}
+
+#title p {
+  font-size: 1.2em;
+  text-align: center;
+  color: 635f5d;
+  margin: 0;
+}
+
+svg {
+  margin-top: 3em;
+}
+.tooldiv {
+  position: absolute;
+  background-color: rgba(99, 95, 93, 0.3);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  -webkit-backdrop-filter: blur(0.5em);
+  backdrop-filter: blur(0.5em);
+  font-size: 0.6em;
+  font-weight: 700;
+  color: #495057;
+  visibility: hidden;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #635f5d;
+}
+
+.map {
+  transform: translateX(2em) scale(0.95)
+}
+
+.copyright {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  right: 5px;
+  bottom: 10px;
+    opacity:0.7
+}
+.copyright:hover {
+ opacity:1}
+.copyright img {
+  width: 25px;
+  margin-left: 5px
+}
